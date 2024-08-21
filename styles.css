@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(113, 153, 163) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#quiz-container, #results-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#options-container {
+    margin-bottom: 20px;
+}
+
+.option {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.option:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.02);
+}
+
+#submit-button, #reset-button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#submit-button:hover, #reset-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#submit-button:active, #reset-button:active {
+    background-color: #004494;
+    transform: scale(1);
+}
+
+#reset-button {
+    background-color: #dc3545; /* Red color for reset button */
+}
+
+#reset-button:hover {
+    background-color: #c82333;
+}
+
+#feedback-container {
+    text-align: center;
+}
+
+#timer {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+#results-container {
+    text-align: center;
+}
+
+#score-message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#back-to-quiz {
+    display: block;
+    color: #007BFF;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#back-to-quiz:hover {
+    text-decoration: underline;
+}

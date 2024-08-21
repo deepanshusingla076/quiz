@@ -1,0 +1,29 @@
+#results-container {
+    background-color: #eee8ed;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#results-container h1 {
+    margin-bottom: 20px;
+}
+
+#score-message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#back-to-quiz {
+    display: block;
+    color: #007BFF;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#back-to-quiz:hover {
+    text-decoration: underline;
+}
